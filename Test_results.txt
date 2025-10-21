@@ -1,0 +1,90 @@
+Test Set Results Summary
+
+
+--- liver_results ---
+Loss: 0.2789
+Accuracy: 0.9114
+Precision: 0.8771
+Recall: 0.9632
+F1 Score: 0.9181
+MCC: 0.8263
+
+--- brain_results ---
+Loss: 0.3050
+Accuracy: 0.9172
+Precision: 0.8863
+Recall: 0.9598
+F1 Score: 0.9216
+MCC: 0.8371
+
+--- kidney_results ---
+Loss: 0.2336
+Accuracy: 0.9280
+Precision: 0.9210
+Recall: 0.9441
+F1 Score: 0.9324
+MCC: 0.8558
+
+--- HEK293_results ---
+Loss: 0.4593
+Accuracy: 0.8529
+Precision: 0.8647
+Recall: 0.8352
+F1 Score: 0.8497
+MCC: 0.7061
+
+--- HeLa_results ---
+Loss: 0.5013
+Accuracy: 0.7640
+Precision: 0.7548
+Recall: 0.7781
+F1 Score: 0.7663
+MCC: 0.5284
+
+--- CD8T_results ---
+Loss: 0.4788
+Accuracy: 0.8798
+Precision: 0.8715
+Recall: 0.8838
+F1 Score: 0.8776
+MCC: 0.7596
+
+--- A549_results ---
+Loss: 0.4962
+Accuracy: 0.8733
+Precision: 0.8700
+Recall: 0.8747
+F1 Score: 0.8724
+MCC: 0.7465
+
+--- MOLM13_results ---
+Loss: 0.3863
+Accuracy: 0.8631
+Precision: 0.8592
+Recall: 0.8660
+F1 Score: 0.8626
+MCC: 0.7262
+
+--- HEK293T_results ---
+Loss: 0.5021
+Accuracy: 0.7620
+Precision: 0.7493
+Recall: 0.7938
+F1 Score: 0.7709
+MCC: 0.5246
+
+--- HCT116_results ---
+Loss: 0.6857
+Accuracy: 0.7558
+Precision: 0.7723
+Recall: 0.7446
+F1 Score: 0.7582
+MCC: 0.5121
+
+--- HepG2_results ---
+Loss: 0.6627
+Accuracy: 0.7544
+Precision: 0.7601
+Recall: 0.7328
+F1 Score: 0.7462
+MCC: 0.5088
