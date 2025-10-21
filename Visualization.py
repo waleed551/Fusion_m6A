@@ -61,7 +61,7 @@ def get_kmer_feature_vectors(sequences, k):
     return np.array(features)
 
 def word2vec(train_data):
-    model_wv =gensim.models.word2vec.Word2Vec.load('word2vec_pretrained_models/my_word2vec-model-DNA-5mer')
+    model_wv =gensim.models.word2vec.Word2Vec.load('word2vec_pretrained_models/my_word2vec-model-RNA-5mer')
     train_X = np.zeros((len(train_data),197,100)) # 41 is lenght of sequence 41-2=39, 100 is set in main file length of sentence
     for ix, seq in enumerate(train_data):
         for iy in range(197):
