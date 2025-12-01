@@ -12,7 +12,7 @@ This repository includes preprocessed benchmark datasets, pretrained models, and
 
 ---
 
-## 🚀 Key Features
+## Key Features
 - **Hybrid CNN-GRU-Attention architecture** for efficient and interpretable m⁶A prediction.  
 - **Word2Vec-based embeddings** for nucleotide sequence representation.  
 - **Cross-tissue generalization** analysis showing robust performance across 11 datasets.  
@@ -24,7 +24,7 @@ This repository includes preprocessed benchmark datasets, pretrained models, and
 
 ---
 
-## 🧩 Reproducibility and Environment Setup
+## Reproducibility and Environment Setup
 To ensure full reproducibility of results reported in the paper, we recommend setting up a dedicated conda environment with the exact package versions used during training and evaluation.
 ### Create a new environment
 ```bash
@@ -55,7 +55,13 @@ Install them directly:
 pip install torch==1.12.1 torchvision==0.13.1 numpy==1.23.5 pandas==1.5.3 scikit-learn==1.2.2 gensim==4.3.1 matplotlib==3.7.1 seaborn==0.12.2 tqdm==4.65.0 scipy==1.10.1 PyYAML==6.0 h5py==3.8.0 pickle5==0.0.12
 ```
 ---
-
+## Files Information:
+- **data/preprocessed_dataset** contains the datasets of all tissues and cell lines (train and test).  
+- **word2vec_pretrained_models** pretrained models for generating the word2vec feature embedding for 3-mer, 4-mer, 5-mer and 6-mer.  
+- **trained_weights** Fusion-m6A model weights for each dataset to reproduce the performance.  
+- **Models_m6A.py** Python code for the proposed model.
+- **Visualization.py** Evaluate the results of the Fusion-m6A.
+  
 ## **Comparison Model: MST-m6A (Transformer-based Model)**:
 For this study, the official implementation of MST-m6A was **downloaded from the authors**’ **cbbl-skku-org** and all pretrained weights were loaded for inference:
 
